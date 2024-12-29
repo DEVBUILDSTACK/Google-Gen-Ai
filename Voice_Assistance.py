@@ -1,3 +1,7 @@
+# Tested the following code in VS Code it throws error needs to be fixed taken from Fahed Mirza
+# For more Info -> https://github.com/fahdmirza/gemini_voice_assistant/
+# This Code is to use the Google Voice Assistant
+
 import asyncio
 import base64
 import json
