@@ -9,7 +9,7 @@ from websockets.asyncio.client import connect
 class GeminiVoiceAssistant:
     def __init__(self):
         self._audio_queue = asyncio.Queue()
-        self._api_key = os.environ.get("AIzaSyAWQYyLMbsStYkJAkmNBwEIlhp2Cn7G1I0")
+        self._api_key = os.environ.get("YOUR_API_KEY")
         self._model = "gemini-2.0-flash-exp"
         self._uri = f"wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.v1alpha.GenerativeService.BidiGenerateContent?key={self._api_key}"
         # Audio settings
